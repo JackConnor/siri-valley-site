@@ -1,0 +1,55 @@
+body {
+  margin: 0px; }
+
+.mobile-title-content {
+  border: 2px solid grey;
+  text-align: center; }
+  @media screen and (min-width: 0px) {
+    .mobile-title-content {
+      display: block; } }
+  @media screen and (min-width: 768px) {
+    .mobile-title-content {
+      display: none; } }
+
+@media screen and (min-width: 0px) {
+  .title {
+    font-size: 30px; } }
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 23px; } }
+
+@media screen and (min-width: 0px) {
+  .author {
+    font-size: 22px; } }
+@media screen and (min-width: 768px) {
+  .author {
+    font-size: 17px; } }
+
+.book-cover-container {
+  height: 500px;
+  background-color: pink;
+  padding-top: 30px; }
+  @media screen and (min-width: 0px) {
+    .book-cover-container {
+      width: 100%; } }
+  @media screen and (min-width: 768px) {
+    .book-cover-container {
+      width: 50%; } }
+
+.book-cover {
+  width: 300px;
+  height: 200px;
+  background-color: grey; }
+  @media screen and (min-width: 0px) {
+    .book-cover {
+      margin: 0 auto;
+      width: 300px; } }
+  @media screen and (min-width: 768px) {
+    .book-cover {
+      margin: 0 auto;
+      width: 300px; } }
+  .book-cover img {
+    width: 100%;
+    height: auto; }
+
+/*# sourceMappingURL=style.css.map */
